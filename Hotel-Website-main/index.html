@@ -1,0 +1,300 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="welcome to the most extraordinary hotel in boston massachusetts">
+    <meta name="keywords" content="hotel,boston">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Hotel BT | boston hotel</title>
+</head>
+<body>
+    <header>
+    
+ <nav id="navbar">
+     <div class="container">
+     <!--this one is so that user can click on the HBT and get leaded to the home page directly-->
+     <h1 class="logo"><a href="index.html">Vibrant 2024</a></h1>
+     <!--these are the three unorderd lists in the navigation bar-->
+     <ul>
+      <li><a class="current" href="index.html">Home</a></li>
+      <li>
+        
+        <div class="dropdown">
+            <a class="dropbtn" href="#Sponsors">Sponsors</a>
+            <div class="dropdown-content">
+                <a href="#Sponsors">DeltaX</a>
+                <a href="#Sponsors">Google</a>
+                <a href="#Sponsors">Bewkoof Tees</a>
+                <a href="#Sponsors">Urbanic India</a>
+                <a href="#Sponsors">Ted Talks</a>
+                <a href="#Sponsors">Myntra</a>
+            </div>
+        </div>
+    
+    </li>
+
+      
+
+
+
+
+      <li>
+        <div class="dropdown">
+            <a class="dropbtn" href="#Events">Events</a>
+            <div class="dropdown-content">
+                <a href="#Events">Sean Talkshow</a>
+                <a href="#Events">Grover Talkshow</a>
+                <a href="#Events">Mae Atal hoon</a>
+                <a href="#Events">Pink Music Fest</a>
+                <a href="#Events">Smriti Irani </a>
+                <a href="#Events">Finance Talkshow</a>
+            </div>
+        </div>
+    </li>
+
+     </ul>
+     </div>
+ </nav>
+
+<div id="showcase">
+    <div class="container">
+        <div class="showcase-content">
+            <h1><span class="text-primary">Vibrant</span> TechFest</h1>
+            <h1><span class="text-primary">ARYA</span> 2024 </h1>
+            
+          <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo voluptate omnis ipsa iure laborum voluptatum doloremque veritatis eum maiores. Quibusdam iste ducimus 
+                doloremque dolorum aliquam consequuntur nobis nemo expedita ipsum.</p> -->
+      
+                <!--  <a href="about.html">About Our Hotel</a>
+        <a class="btn" href="about.html">About Our Hotel</a>-->
+        <br>
+       <button class="btn" onclick="toggleRegistration()">REGISTER</button>
+       <div id="registration-container">
+        <h2>Registration Form</h2>
+        <!--<form action="your_registration_handler.php" method="post">
+            <!-- Add your registration form fields here -->
+          <!-- <label for="username">Phone No:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">password:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="username">College name:</label>
+            <input type="text" id="username" name="username" required>
+            
+            
+            
+    
+            <input type="submit" value="Register">
+        </form> -->
+        <form id="registration-form" onsubmit="return validateRegistrationForm();">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+          
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+          
+            <button type="submit">Register</button>
+          </form>
+            
+    </div>
+        
+            </div>
+    </div>
+</div>
+
+
+
+
+
+<!--<div id="showcaseevents">
+    <div class="container">
+        <div class="showcaseevents-container">
+            <img src="Untitled design (1).png" alt="image-carousel">
+        </div>
+    </div>
+</div>
+-->
+
+<!--
+<div id="full-container">
+    <div id="right-container">
+        
+        <h2>About Us</h2>
+        <p>Get ready for an amazing cultural events called Vibrant 2024. Its going to be fantastic blent of thought-provoing Talk sessions and electrifying music festivals.
+            Join us for an inspiring day filled with ideas, creativity and incredible day filled with ideas. Dont miss out on this opportunity and register yourself today!
+        </p>
+    </div>
+-->
+
+
+
+
+
+</div>
+<div id="event-container">
+    
+    <div id="carousel-container">
+        <h1>VIBRANT EVENTS</h1>
+        <div id="image-carousel">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.04 PM (1).jpeg" alt="Image 1">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.04 PM (2).jpeg" alt="Image 2">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.04 PM.jpeg" alt="Image 3">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.06 PM.jpeg" alt="Image 1">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.10.22 PM.jpeg" alt="Image 2">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.04 PM (1).jpeg" alt="Image 1">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.04 PM (2).jpeg" alt="Image 2">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.04 PM.jpeg" alt="Image 3">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.06 PM.jpeg" alt="Image 1">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.10.22 PM.jpeg" alt="Image 2">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.04 PM (1).jpeg" alt="Image 1">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.04 PM (2).jpeg" alt="Image 2">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.04 PM.jpeg" alt="Image 3">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.06 PM.jpeg" alt="Image 1">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.10.22 PM.jpeg" alt="Image 2">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.04 PM (1).jpeg" alt="Image 1">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.04 PM (2).jpeg" alt="Image 2">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.04 PM.jpeg" alt="Image 3">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.06 PM.jpeg" alt="Image 1">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.10.22 PM.jpeg" alt="Image 2">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.04 PM (1).jpeg" alt="Image 1">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.04 PM (2).jpeg" alt="Image 2">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.04 PM.jpeg" alt="Image 3">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.00.06 PM.jpeg" alt="Image 1">
+            <img class="carousel-image" src="WhatsApp Image 2024-01-11 at 4.10.22 PM.jpeg" alt="Image 2">
+            
+            
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+</div>
+<button id="prev-button" class="carousel-button">&#10094;</button>
+<button id="next-button" class="carousel-button">&#10095;</button>
+<!--
+<button class="carousel-button" onclick="prevImage()">&#10094;</button>
+<button class="carousel-button" onclick="nextImage()">&#10095;</button>-->
+</header>
+
+
+<!--
+<section id="home-info" class="bg-dark">
+    <div class="info-img"></div>
+    <div class="info-content">
+        <h2> <span class="text-primary">The History </span><span class="text-secondary"> Of Our Hotel</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, possimus harum? Laudantium pariatur, harum dolorum dolores quasi consequatur! Consequatur deserunt atque molestias amet, alias dolorem! Similique voluptatum consectetur  </p>
+   <br><a href="about.html" class="btn btn-light ">Read More</a>
+    </div>
+
+</section>
+-->
+<!--
+<section id="features">
+    <div class="box bg-light">
+        <i class="fa-light fa-hotel"></i>
+       <span class="text-primary"><h3>Great Location</h3> </span>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+             elit. Laudantium, harum.</p>
+
+    </div>
+    <div class="box bg-primary">
+        <i class="fa-light fa-pot-food"></i>
+        <span class="text-primary"> <h3>Free Meals</h3><br></span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+                     elit. Laudantium, harum.</p>     
+                     
+    </div>
+     <div class="box bg-light">
+        <i class="fa-solid fa-dumbbell"></i>
+        <span class="text-primary">   <h3>Fitness Rooms</h3></span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+                             elit. Laudantium, harum.</p>
+    </div>
+</section>
+-->
+
+<div id="flex-container">
+    <div id="faqs">
+        <h2>Frequently Asked Questions (FAQs) - Vibrant 2024</h2>
+        <div class="faq-item">
+            <div class="faq-question">Q: What is Vibrant 2024?</div>
+            <div class="faq-answer">
+                <p>A: Vibrant 2024 is a cultural fest organized by our college, featuring various events and activities.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Q: When and where will Vibrant 2024 take place?</div>
+            <div class="faq-answer">
+                <p>A: The event is scheduled to take place on 10 Feb 2024 at Arya college Jaipur.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Q: What kind of events can I expect at Vibrant 2024?</div>
+            <div class="faq-answer">
+                <p>A: You can expect a variety of cultural, technical, and entertainment events at Vibrant 2024, including talk shows, music festivals, and workshops. </p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Q: How can I register for Vibrant 2024?</div>
+            <div class="faq-answer">
+                <p>A: You can register for Vibrant 2024 by filling out the registration form on our website. Once you submit the form, you will receive a confirmation email with further instructions. </p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Q:  Is there a registration fee for Vibrant 2024? </div>
+            <div class="faq-answer">
+                <p>A: No, there is no registration fee for Vibrant 2024. However, some events may have a separate fee, which will be clearly mentioned on our website. </p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Q: What should I wear to Vibrant 2024? </div>
+            <div class="faq-answer">
+                <p>A: We recommend wearing comfortable clothing and shoes, as you may be participating in various events throughout the day. However, there is no specific dress code for Vibrant 2024.</p>
+            </div>
+        </div>
+        <!-- Add more FAQs as needed -->
+    </div>
+
+    <div id="contact-info">
+        <h2>Contact Information</h2>
+        <!-- Add your social media and contact information here -->
+        
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>Phone: 9314881683</span>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn: <a href="https://www.linkedin.com/school/aryacollege/" target="_blank">Your LinkedIn Profile</a></span>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-twitter"></i>
+                <span>Twitter: <a href="https://www.linkedin.com/school/aryacollege/" target="_blank">Your Twitter Profile</a></span>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram: <a href="https://www.instagram.com/aryacollege?igsh=MTB1aHpqZGlrODFycg==" target="_blank">Your Instagram Profile</a></span>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-facebook"></i>
+                <span>Facebook: <a href="https://www.instagram.com/aryacollege?igsh=MTB1aHpqZGlrODFycg==" target="_blank">Your Facebook Profile</a></span>
+            </div>
+    </div>    
+</div>
+        
+<footer id="main-footer">
+
+</footer>
+<script src="carousel.js"></script> <!-- Include the external JavaScript file -->
+</body>
+</html>
